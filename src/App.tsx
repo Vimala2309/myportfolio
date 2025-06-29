@@ -332,7 +332,7 @@ function App() {
           <div className="mb-8 relative">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-emerald-600 to-teal-600 p-1">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-emerald-600 shadow-lg">
-                <img src="public/mine.jpg" className="w-full h-full object-cover"/>
+                <img src="/mine.jpg" className="w-full h-full object-cover"/>
               </div>
               </div>
             {/* <div className="absolute -inset-2 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-full blur opacity-30 animate-pulse"></div> */}
