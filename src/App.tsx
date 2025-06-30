@@ -587,36 +587,25 @@ function App() {
             </div>
             
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
-              <form className="space-y-6">
+             <form className="space-y-6" action="https://formspree.io/f/mblywgzv" method="POST">
                 <div>
-                  <label className="block text-gray-300 text-sm font-medium mb-2">Name</label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-emerald-500 focus:outline-none transition-colors"
-                    placeholder="Your name"
-                  />
+                   <label className="block text-gray-300 text-sm font-medium mb-2">Name</label>
+                     <input name="name" type="text" required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white"
+                       placeholder="Your name"/>
                 </div>
-                <div>
-                  <label className="block text-gray-300 text-sm font-medium mb-2">Email</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-emerald-500 focus:outline-none transition-colors"
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-gray-300 text-sm font-medium mb-2">Message</label>
-                  <textarea
-                    rows={5}
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white focus:border-emerald-500 focus:outline-none transition-colors resize-none"
-                    placeholder="Tell me about your project or just say hello!"
-                  ></textarea>
-                </div>
-                <LightningButton className="w-full justify-center">
-                  <Mail className="w-5 h-5" />
-                  Send Message
-                </LightningButton>
-              </form>
+               <div>
+                 <label className="block text-gray-300 text-sm font-medium mb-2">Email</label>
+             <input name="email" type="email" required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="you@example.com"/>
+           </div>
+           <div>
+              <label className="block text-gray-300 text-sm font-medium mb-2">Message</label>
+              <textarea name="message" rows={5} required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="Write your message here..."/>
+           </div>
+             <button type="submit" className="w-full justify-center px-6 py-3 bg-emerald-600 text-white rounded-lg font-semibold">
+             Send Message
+            </button>
+               </form>
+
             </div>
           </div>
         </div>
@@ -639,7 +628,7 @@ function App() {
           </div>
           <p className="text-gray-400">
             © 2024 {PERSONAL_DATA.name}. 
-            {/* <span className="text-emerald-400"> Made with ❤️ in India</span> */}
+          
           </p>
         </div>
       </footer>
