@@ -650,7 +650,7 @@ function App() {
             </a>
           </div>
           <p className="text-gray-400">
-            © 2024 {PERSONAL_DATA.name}. Built with React & Tailwind CSS. 
+            © 2024 {PERSONAL_DATA.name}. 
             {/* <span className="text-emerald-400"> Made with ❤️ in India</span> */}
           </p>
         </div>
