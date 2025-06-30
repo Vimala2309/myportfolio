@@ -587,24 +587,49 @@ function App() {
             </div>
             
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
-             <form className="space-y-6" action="https://formspree.io/f/mblywgzv" method="POST">
-                <div>
-                   <label className="block text-gray-300 text-sm font-medium mb-2">Name</label>
-                     <input name="name" type="text" required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white"
-                       placeholder="Your name"/>
-                </div>
-               <div>
-                 <label className="block text-gray-300 text-sm font-medium mb-2">Email</label>
-             <input name="email" type="email" required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="you@example.com"/>
-           </div>
-           <div>
-              <label className="block text-gray-300 text-sm font-medium mb-2">Message</label>
-              <textarea name="message" rows={5} required className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="Write your message here..."/>
-           </div>
-             <button type="submit" className="w-full justify-center px-6 py-3 bg-emerald-600 text-white rounded-lg font-semibold">
-             Send Message
-            </button>
-               </form>
+             <form
+  className="space-y-6"
+  action="https://formspree.io/f/mblywgzv"
+  method="POST"
+>
+  <div>
+    <label className="block text-gray-300 text-sm font-medium mb-2">Name</label>
+    <input
+      name="name"
+      type="text"
+      required
+      className="w-full bg-transparent text-white border border-gray-600 rounded px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+      placeholder="Your name"
+    />
+  </div>
+
+  <div>
+    <label className="block text-gray-300 text-sm font-medium mb-2">Email</label>
+    <input
+      name="email"
+      type="email"
+      required
+      className="w-full bg-transparent text-white border border-gray-600 rounded px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+      placeholder="you@example.com"
+    />
+  </div>
+
+  <div>
+    <label className="block text-gray-300 text-sm font-medium mb-2">Message</label>
+    <textarea
+      name="message"
+      rows={5}
+      required
+      className="w-full bg-transparent text-white border border-gray-600 rounded px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+      placeholder="Write your message..."
+    />
+  </div>
+
+  <LightningButton type="submit">
+    <Zap className="w-5 h-5" />
+    Send Message
+  </LightningButton>
+</form>
 
             </div>
           </div>
