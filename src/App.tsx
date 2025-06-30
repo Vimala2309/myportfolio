@@ -402,7 +402,7 @@ function App() {
                   <span className="text-gray-300">{PERSONAL_DATA.education.status}</span>
                 </div>
               </div>
-                 <a href={PERSONAL_DATA.resume} download className="inline-block">
+                 <a href="/myportfolio/vimala.pdf" download className="inline-block">
                    <LightningButton>
                    <Download className="w-5 h-5" />
                       Download Resume
