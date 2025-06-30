@@ -36,7 +36,7 @@ const PERSONAL_DATA = {
   
   // Social Links
   github: "https://github.com/vimala2309",
-  linkedin: "https://www.linkedin.com/in/vimalaillgunoori2309/",
+  linkedin: "https://www.linkedin.com/in/vimala-i-6b150b2aa/",
   resume: "/vimala.pdf", // Add your resume link here
   
   // About Section
@@ -486,19 +486,7 @@ function App() {
         </div>
       </section>
 
-    {/* Experience Section
-      <section id="experience" className="py-20 px-4 relative z-10">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
-              Experience & Education
-            </span>
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-semibold text-white mb-8 flex items-center">
-                <Briefcase className="w-6 h-6 text-emerald-400 mr-2" />
+      <Briefcase className="w-6 h-6 text-emerald-400 mr-2" />
                 Experience
               </h3>
               <div className="space-y-6">
