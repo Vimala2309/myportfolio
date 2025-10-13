@@ -37,7 +37,11 @@ const PERSONAL_DATA = {
   // Social Links
   github: "https://github.com/vimala2309",
   linkedin: "https://www.linkedin.com/in/vimala-i-6b150b2aa/",
+<<<<<<< HEAD
   resume: "vimala.pdf", // Add your resume link here
+=======
+  resume: "/vimala.pdf", // Add your resume link here
+>>>>>>> d785e75 (Updated design and content)
   
   // About Section
   aboutText: [
@@ -332,7 +336,11 @@ function App() {
           <div className="mb-8 relative">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-emerald-600 to-teal-600 p-1">
               <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-emerald-600 shadow-lg">
+<<<<<<< HEAD
                 <img src="/myportfolio/mine.jpg" className="w-full h-full object-cover"/>
+=======
+                <img src="/myportfolio/mine.jpg"  className="w-full h-full object-cover" />
+>>>>>>> d785e75 (Updated design and content)
               </div>
               </div>
             {/* <div className="absolute -inset-2 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-full blur opacity-30 animate-pulse"></div> */}
@@ -587,7 +595,11 @@ function App() {
             </div>
             
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
+<<<<<<< HEAD
              <form
+=======
+ <form
+>>>>>>> d785e75 (Updated design and content)
   className="space-y-6"
   action="https://formspree.io/f/mblywgzv"
   method="POST"
@@ -631,10 +643,18 @@ function App() {
   </LightningButton>
 </form>
 
+<<<<<<< HEAD
             </div>
           </div>
         </div>
       </section>
+=======
+
+</div>
+  </div>
+</div>
+</section>
+>>>>>>> d785e75 (Updated design and content)
 
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-gray-800 relative z-10">
@@ -653,7 +673,11 @@ function App() {
           </div>
           <p className="text-gray-400">
             © 2024 {PERSONAL_DATA.name}. 
+<<<<<<< HEAD
           
+=======
+            
+>>>>>>> d785e75 (Updated design and content)
           </p>
         </div>
       </footer>
