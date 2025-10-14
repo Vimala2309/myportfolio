@@ -37,7 +37,7 @@ const PERSONAL_DATA = {
   // Social Links
   github: "https://github.com/vimala2309",
   linkedin: "https://www.linkedin.com/in/vimala-i-6b150b2aa/",
-  resume: "/vimala.pdf", // Add your resume link here
+  resume: "vimala.pdf", // Add your resume link here
   
   // About Section
   aboutText: [
